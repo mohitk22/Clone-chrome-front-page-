@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('google_background.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px; 
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo h1{
+    color: white;
+    font-size: 4rem;
+    padding: 40px;
+}
+
+.Search-bar {
+    border: 1px solid gray;
+    width: max-content;
+    padding: 5px 25px;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+input{
+    font-size: large;
+}
+
+.Search-bar i{
+    padding: 8px;
+}
+
+.input-field {
+    border: none;
+    width: 500px;
+    outline: none;
+    height: 28px;
+}
+
+.sFpEPc{
+    height: 49px;
+    padding: 10px;
+}
+
+/* .first1{
+    border: 1px solid black;
+    background-color: blue;
+    left: 5px;
+    top: 5px;
+} */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.one{
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(132, 132, 190);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.what{
+    height:50px;
+    width: 50px;
+}
+
+.first1 pre {
+    color: white;
+    /* margin-left:5px ; */
+}
+
+.par{
+    margin-left: 12px;
+    color: white;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+
+/* nav {
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+} */
+
+/* nav{
+    height: 60px;
+    background-color: aqua;
+ 
+} */
+.nav{
+    display:flex;
+    justify-content: end;
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.nav img {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav p{
+    margin-left: 40px;
+}
